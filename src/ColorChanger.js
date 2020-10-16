@@ -1,8 +1,6 @@
 import React from 'react'
 
-class ColorChanger extends React.Component {
+function ColorChanger(props) {
 
-  render() {
-    return <button onClick='props.colorHandler()'>Click for a Random Color</button>
-  }
+  return <button onClick='props.colorHandler()'>Click for a Random Color</button>
 }
